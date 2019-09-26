@@ -10,4 +10,4 @@ client.messages
     from: process.env.FROM_NUMBER,
     to: process.env.TO_NUMBER
 })
-.then(message => console.log("Lizzo SOS lyric sent!"))
+.then(console.log("Lizzo SOS lyric sent!"))
