@@ -6,7 +6,7 @@ const client = require('twilio')();
 // Creating the messages 
 client.messages 
 .create({
-    body: "🎶🔕 And that's the soouunnd of me not calling you back 🔕🎶",
+    body: "🤔 Why men great 'til they gotta be great? Don't text me, tell it straight to my face 📲",
     from: process.env.FROM_NUMBER,
     to: process.env.TO_NUMBER
 })
