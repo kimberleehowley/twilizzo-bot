@@ -6,8 +6,8 @@ const client = require('twilio')();
 // Creating the messages 
 client.messages 
 .create({
-    body: "And that's the sound of me not calling you back 🔕",
+    body: "🎶🔕 And that's the soouunnd of me not calling you back 🔕🎶",
     from: process.env.FROM_NUMBER,
     to: process.env.TO_NUMBER
 })
-.then(console.log("Lizzo SOS lyric sent!"))
+.then(console.log("Lizzo SOS sent!"))
